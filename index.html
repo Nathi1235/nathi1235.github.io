@@ -7,6 +7,9 @@
     </head>
     <body>
         <script>
+            document.getElementById("year").value = new Date().getFullYear();
+        </script>
+        <script>
             var inverted = false;
             function invert(){
                 inverted = !inverted;
@@ -114,7 +117,7 @@
                     <img id="footer-icon3" class="footer-icon" src="twitter-logo.png">
                 </a>
                 <p class="footer-item">
-                    <span>Nathanael <a onclick="invert()">©</a>2021</span>
+                    <span>Nathanael <a onclick="invert()">©</a><span id="year"></span></span>
                 </p>
             </div>
         </footer>
