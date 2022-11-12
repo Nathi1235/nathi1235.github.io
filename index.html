@@ -5,9 +5,11 @@
         <link rel="stylesheet" href="style.css">
         <title>Nathi1235</title>
     </head>
-    <body>
+    <body onload="updateYear()">
         <script>
-            document.getElementById("year").value = new Date().getFullYear();
+            function updateYear(){
+                document.getElementById("year").value = new Date().getFullYear();
+            }
         </script>
         <script>
             var inverted = false;
