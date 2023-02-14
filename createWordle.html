@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WORDLE 2.0 by Nathi1235</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    <script>
+        function invert(){
+            document.documentElement.classList.toggle("dark-mode");
+        }
+        document.addEventListener('DOMContentLoaded', function(){
+            document.getElementById("year").innerHTML = " "+new Date().getFullYear();
+        });
+    </script>
+</head>
+
+<body>
+    <span id="heading" style="font-size: 300%;">Create your own Wordle - 
+        <a id="github-link" href="https://github.com/Nathi1235">Nathanael</a>
+        <a onclick="invert()">©</a>
+        <span id="year"></span>
+    </span>
+    <div id="input-output">
+        <div>Word: </div>
+        <div id="input-area">
+            <input type="text" id="textarea" class="word-input" onkeyup="updateURL()">
+        </div>
+        <div>URL: </div>
+        <div id="copy-area">
+            <input type="text" id="textarea" class="url-field" readonly><button id="create-button" class="copy-image" onclick="copy()"></button>
+        </div>
+    </div>
+</body>
+</html>
