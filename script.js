@@ -86,11 +86,19 @@ function writeBackspace(target){
         document.getElementsByClassName("cell")[active_row*wordLength-1].className = "cell active";
         document.getElementsByClassName("cell")[active_row*wordLength-1].innerHTML = " ";
     }else if(counter > (active_row-1)*wordLength){
-        var nodes = Array.prototype.slice.call(document.getElementsByClassName("cell"));
-        new_active = document.getElementsByClassName("cell")[nodes.indexOf(target[0])-1];
-        target[0].classList.remove("active");
-        new_active.className = "cell active";
-        target[0].innerHTML = " ";
+        if(target[0].innerHTML == " " || target[0].innerHTML == ""){
+            var nodes = Array.prototype.slice.call(document.getElementsByClassName("cell"));
+            new_active = document.getElementsByClassName("cell")[nodes.indexOf(target[0])-1];
+            target[0].classList.remove("active");
+            new_active.className = "cell active";
+            new_active.innerHTML = " ";
+        }else{
+            target[0].innerHTML = " ";
+            var nodes = Array.prototype.slice.call(document.getElementsByClassName("cell"));
+            new_active = document.getElementsByClassName("cell")[nodes.indexOf(target[0])-1];
+            target[0].classList.remove("active");
+            new_active.className = "cell active";
+        }
         counter -= 1;
     }else{
         target[0].innerHTML = " ";

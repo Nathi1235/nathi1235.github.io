@@ -65,7 +65,7 @@ body {
 
 .main-container {
     width: 100%;
-    height: calc(100% - var(--app-bar-height));
+    height: 90%;
     max-width: var(--max-width);
     margin-left: auto;
     margin-right: auto;
@@ -75,7 +75,7 @@ body {
 
 
 #board-container {
-    flex-grow: 1;
+    flex-grow: 0;
     width: 100%;
     margin-top: 2%;
     display: flex;
@@ -86,7 +86,7 @@ body {
     color: var(--txt-color);
     padding: 5px;
     padding-top: 2px;
-    gap: 4px
+    gap: 6px
 }
 
 #board {
@@ -94,8 +94,8 @@ body {
     grid-row-gap: var(--cell-gap);
     grid-column-gap: var(--cell-gap);
     width: 800px;
-    height: 1000px;
-    font-size: 60px;
+    height: 65vh;
+    font-size: 4vh;
     font-family: Fredoka;
 }
 

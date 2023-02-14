@@ -25,7 +25,7 @@
     <div id="input-output">
         <div>Word: </div>
         <div id="input-area">
-            <input type="text" id="textarea" class="word-input" onkeyup="updateURL()">
+            <input type="text" id="textarea" class="word-input" onkeyup="updateURL()" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)">
         </div>
         <div>URL: </div>
         <div id="copy-area">
