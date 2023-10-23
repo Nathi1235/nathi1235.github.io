@@ -1,10 +1,105 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Wichteln</title>
     </head>
-    <body>
-        <input/>
-        <input/>
+    <body onload="getURLParam()">
+        <h1>Wichteln</h1>
+        <div id="decode_container"></div>
+        <br/><br/>
+        <div id="content_container">
+            <div id="name_container">
+                <a class="name1">Name1:</a><input class="name1" id="name1"/><br class="name1"/>
+                <a class="name2">Name2:</a><input class="name2" id="name2"/><br class="name2"/>
+                <a class="name3">Name3:</a><input class="name3" id="name3"/><br class="name3"/>
+            </div>
+            <button onclick="addName()">Neuer Name</button>
+            <button onclick="remName()">Name löschen</button>
+            <button onclick="create()">Auslosen</button>
+            <br/>
+            <div id="result_container"></div>
+        </div>
     </body>
+    <script>
+        var counter = 3;
+        function addName(){
+            counter++;
+            let name_label = document.createElement("a");
+            let name_field = document.createElement("input");
+            let br = document.createElement("br");
+            name_label.innerHTML = "Name"+counter+":";
+            name_label.className = "name"+counter;
+            name_field.className = "name"+counter;
+            name_field.id = "name"+counter;
+            br.className = "name"+counter;
+            const name_div = document.getElementById("name_container");
+            name_div.appendChild(name_label);
+            name_div.appendChild(name_field);
+            name_div.appendChild(br);
+        }
+        function remName(){
+            if(counter > 3){
+                let name_elements = document.getElementsByClassName("name"+counter);
+                for(let i = 0; i <= name_elements.length+1; i++){
+                    name_elements[0].remove();
+                }
+                counter--;
+            }
+        }
+        function create(){
+            document.getElementById("result_container").remove();
+            let result_container = document.createElement("div");
+            result_container.id = "result_container";
+            document.getElementById("content_container").appendChild(result_container);
+            let name_array = [];
+            for(let i = 1; i <= counter; i++){
+                name_val = document.getElementById("name"+i).value;
+                if(name_val == ""){
+                    document.write("Es darf kein Name freibleiben!");
+                    return;
+                }
+                name_array.push(name_val);
+            }
+            let ran_array = name_array.slice();
+            let shuffled = false;
+            while(!shuffled){
+                ran_array = ran_array.sort((a,b) => 0.5 - Math.random());
+                shuffled = true;
+                for(let i = 0; i < name_array.length; i++){
+                    if(name_array[i] == ran_array[i]){
+                        shuffled = false;
+                        break;
+                    }
+                }
+            }
+            let container = document.getElementById("result_container");
+            for(let i = 0; i < name_array.length; i++){
+                let name_label = document.createElement("a");
+                name_label.innerHTML = name_array[i] + " : " + createNewURL(ran_array[i]);
+                let br = document.createElement("br");
+                container.appendChild(name_label);
+                container.appendChild(br);
+            }
+        }
+        function getURLParam(){
+            let url_param = new URLSearchParams(window.location.search);
+            if(url_param.size == 0){
+                return;
+            }else{
+                let name = decode(url_param.get('code'));
+                let name_label = document.createElement("a");
+                name_label.innerHTML = "Du hast: "+name;
+                document.getElementById("decode_container").appendChild(name_label);
+            }
+        }
+        function createNewURL(text){
+            return `${new URL(document.URL).hostname}/WichtelChooser/wichtel.html?code=${encode(text)}`;
+        }
+        function encode(text){
+            return btoa(text.toUpperCase());
+        }
+        function decode(text){
+            return atob(text).toUpperCase();
+        }
+    </script>
 </html>
