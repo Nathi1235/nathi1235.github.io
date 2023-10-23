@@ -59,7 +59,7 @@ function getURLParam(){
 }
 
 function createNewURL(text){
-    return `${new URL(document.URL).hostname}/?code=${encode(text)}`
+    return `${new URL(document.URL).hostname}/WordleV2/wordleV2.html?code=${encode(text)}`
 }
 
 function encode(text){
