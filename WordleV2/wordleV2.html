@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WORDLE 2.0 by Nathi1235</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./script.js"></script>
+    <script>
+        function invert(){
+            document.documentElement.classList.toggle("dark-mode");
+        }
+        document.addEventListener('DOMContentLoaded', function(){
+            setField();
+            init();
+        });
+    </script>
+</head>
+
+<body>
+    <span id="heading">Wordle v2 by <a id="github-link" href="https://github.com/Nathi1235">Nathanael</a>
+        <a onclick="invert()">©</a>
+        <span id="year"></span>
+    </span>
+    <div id="create-button-div">
+        <button onclick="createWordle()" id="create-button">Create your own Wordle v2</button>
+    </div>
+    <div class="main-container">
+        <div id="board-container">
+            <div id="board"></div>
+        </div>
+        <div id="lower-area">
+            <div id="keyboard">
+                <div>
+                    <div class="key">Q</div>
+                    <div class="key">W</div>
+                    <div class="key">E</div>
+                    <div class="key">R</div>
+                    <div class="key">T</div>
+                    <div class="key">Z</div>
+                    <div class="key">U</div>
+                    <div class="key">I</div>
+                    <div class="key">O</div>
+                    <div class="key">P</div>
+                </div>
+                <div class="middle-key-row">
+                    <div class="key">A</div>
+                    <div class="key">S</div>
+                    <div class="key">D</div>
+                    <div class="key">F</div>
+                    <div class="key">G</div>
+                    <div class="key">H</div>
+                    <div class="key">J</div>
+                    <div class="key">K</div>
+                    <div class="key">L</div>
+                </div>
+                <div>
+                    <div class="key" id="enter-key"></div>
+                    <div class="key">Y</div>
+                    <div class="key">X</div>
+                    <div class="key">C</div>
+                    <div class="key">V</div>
+                    <div class="key">B</div>
+                    <div class="key">N</div>
+                    <div class="key">M</div>
+                    <div class="key" id="backspace-key"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
