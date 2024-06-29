@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://static-00.iconduck.com/assets.00/croissant-emoji-512x512-0997aplo.png">
+    <script src="script.js"></script>
+    <title>Essensliste</title>
+</head>
+<body onload="load()">
+    <h1 class="heading">Essensliste</h1>
+    <div class="ctrl_area">
+        Tage:<input type="number" id="ref_all" onchange="refresh_all()" min="1" max="25" value="7">
+        <button onclick="refresh_all()">↻</button>
+    </div>
+    <div id="table_container" class="content">
+        <table id="food_table">
+        </table>
+    </div>
+    <footer><a href="https://github.com/Nathi1235">Nathanael</a>©<a id="year"></a></footer>
+</body>
+</html>
