@@ -12,6 +12,11 @@
 }
 
 body{
+    display: flex;
+    flex-direction:  column;
+
+    min-height: 91vh;
+    
     background-color: var(--dark);
     color: var(--light);
     
@@ -93,13 +98,8 @@ table{
 }
 
 footer{
-    position: absolute;
-
-    bottom: 0.5vh;
-
-    width: 90vw;
-    height: 1.5vh;
-
+    margin-top: auto;
+    padding-top: 2vh;
 }
 
 a{
