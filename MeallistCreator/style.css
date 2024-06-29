@@ -40,6 +40,8 @@ body{
 }
 
 input#ref_all{
+    margin-right: 1.5vw;
+    
     font-size: var(--big_text);
     text-align: center;
     
