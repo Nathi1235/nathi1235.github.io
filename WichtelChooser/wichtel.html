@@ -19,7 +19,7 @@
             <br/>
             <div id="result_container"></div>
         </div>
-        <footer><a style="color:black;text-decoration:none;">Nathanael</a>©<a id='year'></a></footer>
+        <footer><a style="color:black;text-decoration:none;" href="https://github.com/Nathi1235">Nathanael</a>©<a id='year'></a></footer>
     </body>
     <script>
         var counter = 3;
@@ -83,7 +83,7 @@
             }
         }
         function getURLParam(){
-            document.getElementById('year').innerText = new Date.getFullYear();
+            document.getElementById('year').innerText = new Date().getFullYear();
             let url_param = new URLSearchParams(window.location.search);
             if(url_param.size == 0){
                 return;
