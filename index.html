@@ -3,9 +3,15 @@
     <head>
 
     </head>
-    <body>
+    <body onload="getYear()">
         <a href="https://nathi1235.github.io/WordleV2/wordleV2.html"><button>WordleV2</button></a>
         <a href="https://nathi1235.github.io/WichtelChooser/wichtel.html"><button>Wichteln</button></a>
         <a href="https://nathi1235.github.io/MeallistCreator/meallist.html"><button>Essensliste</button></a>
+    <footer><a style="color:black;text-decoration:none" href="https://github.com/Nathi1235">Nathanael</a>©<a id="year"></a></footer>
     </body>
+    <script>
+        function getYear(){
+            document.getElementById('year').innerText = new Date().getFullYear();
+        }
+    </script>
 </html>
