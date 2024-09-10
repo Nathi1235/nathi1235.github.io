@@ -40,3 +40,9 @@ button{
     border-radius: 1vw;
     border: solid 1px black;
 }
+
+footer{
+    font-size: 20px;
+    margin-top: auto;
+    padding-top: 2vh;
+}
