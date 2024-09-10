@@ -4,6 +4,7 @@ var cABCDE;
 var measures;
 
 function website_init(){
+    document.getElementById("year").innerText = new Date().getFullYear();
     load_json();
     setTimeout(getRandom,100);
 }
