@@ -6,7 +6,6 @@ var measures;
 function website_init(){
     load_json();
     setTimeout(getRandom,100);
-    //document.getElementById("year").innerText = new Date().getFullYear();
 }
 
 async function load_json(){
