@@ -43,4 +43,5 @@ function check(){
 function reveal(){
     document.getElementById("disease").innerHTML = "<p style='color:blue'>"+disease+"</p>";
     document.getElementById("measures").innerHTML = "Maßnahmen:"+measures;
+    document.getElementById("cABCDE").innerHTML = "<br><br>"+JSON.stringigy(diseases[disease]);
 }
