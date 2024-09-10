@@ -1,0 +1,338 @@
+{
+    "Schwellung der Atemwege":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Patient unruhig bzw. im Erregungszustand"},
+        "A":{"Atemwege":"Zugeschwollen - auch Gesicht angeschwollen"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"beim Einatmen","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"normal","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"agitiert","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Kühlen der Schwellung, evtl. Sauerstoffgabe"
+    },
+    "Verlegung der Atemwege":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Patient unruhig bzw. im Erregungszustand, keine/nur kloßige Sprache"},
+        "A":{"Atemwege":"sichtbare Speisereste, Erbrochenes"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"agitiert","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"5 Schulterschläge, 5 Oberbauchkompressionen"
+    },
+
+
+
+    "Strangulation":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Seil um Hals"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Exekutive bei Verdacht auf Fremdverschulden, psychische Betreuung, evtl. Sauerstoffgabe"
+    },
+    "Ertrinken":{
+        "EE":{"Starke Blutung":"-","Eindruck":"normal"},
+        "A":{"Atemwege":"Flüssigkeit in den Atemwegen"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"brodeln","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"keine"
+    },
+    "Lungenentzündung":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Schlechter AZ"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"erhöht","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"erhöht","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"evtl. Sauerstoffgabe"
+    },
+    "Lungenödem":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Schlechter AZ"},
+        "A":{"Atemwege":"evtl. Schaum"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"erhöht","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"rasseln","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"kaltschweißig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"evtl. Sauerstoffgabe"
+    },
+    "Hyperventilationstetanie":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Patient im Erregungszustand"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"erhöht","Atemtiefe":"tiefe Atemzüge","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"Krämpfe,Missempfindungen","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"Kribbeln in Händen und Füßen, Pfötchenstellung"},
+        "Maßnahmen":"Beruhigen, in T-Shirt oder Sauerstoffmaske(Ohne Sauerstoff) atmen"
+    },
+    "Asthma bronchiale":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Patient unruhig bzw. im Erregungszustand"},
+        "A":{"Atemwege":"Bronchien verengt"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"expiratorischer Stridor(Geräusche beim Ausatmen)","Atemhilfsmuskulatur":"+","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"evtl. Sauerstoffgabe"
+    },
+    "COPD":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Patient unruhig bzw. im Erregungszustand"},
+        "A":{"Atemwege":"durch Schleim beeinträchtigt"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"expiratorischer Stridor(Geräusche beim Ausatmen)","Atemhilfsmuskulatur":"+","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Lippenbremse, Sauerstoffgabe(Ziel 90%)"
+    },
+    "Thorax Trauma":{
+        "EE":{"Starke Blutung":"-","Eindruck":"normal"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"erhöht","Atemtiefe":"normal","Bewegung des Brustkorbes":"ungleich","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"niedrig","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"Schmerzen beim Brustkorb"},
+        "Maßnahmen":"Offene Wunden versorgen, Bei Serienrippenbruch auf die Verletzte Seite legen um unverletzte Seite zu entlasten"
+    },
+
+
+
+    "Schock":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Patient unruhig bzw. im Erregungszustand"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"erhöht","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"blass und kaltschweißig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"niedrig","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"evtl. Sauerstoffgabe, Wärmeerhalt"
+    },
+    "ACS/Herzinfarkt":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Patient unruhig bzw. im Erregungszustand, Todesangst"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"erhöht","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"schlecht","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"blass und kaltschweißig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"stechende, brennende Schmerzen hinter dem Brustbein evtl. Ausstrahlung, Schwindel, Übelkeit, Erbrechen","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Defi bereithalten"
+    },
+    "Hypertensiver Notfall":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Patient unruhig bzw. im Erregungszustand, hochroter Kopf"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"sehr gut","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"erhöht","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Kopfschmerzen, Übelkeit, Ohrensausen, Nasenbluten","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Oberkörper hochlagern"
+    },
+    "Lungenembolie":{
+        "EE":{"Starke Blutung":"-","Eindruck":"normal"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"erhöht","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"schlecht","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"niedrig","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"gestaute Halsvenen"},
+        "Maßnahmen":"evtl. Sauerstoffgabe"
+    },
+
+
+
+    "Schlaganfall":{
+        "EE":{"Starke Blutung":"-","Eindruck":"sehr krank"},
+        "A":{"Atemwege":"Schluckbeeinträchtigung"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"positiv","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Time is Brain"
+    },
+    "Krampfanfall":{
+        "EE":{"Starke Blutung":"-","Eindruck":"bewusstseinseingetrübt"},
+        "A":{"Atemwege":"blutiger Schaum vor dem Mund"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"erhöht","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Errinnerungslücken","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Während Krampfanfall vor Verletzungen schützen, danach Atemkontrolle und evtl. Sauerstoffgabe + Wärmeerhalt"
+    },
+    "Dehydration und Exsikkose":{
+        "EE":{"Starke Blutung":"-","Eindruck":"bewusstseinseingetrübt"},
+        "A":{"Atemwege":"trockene Schleimhäute"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"trocken","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"niedrig","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Schwindel,Verwirrtheit,Somnolenz","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Wasser anbieten"
+    },
+    "Hitzenotfall":{
+        "EE":{"Starke Blutung":"-","Eindruck":"hochroter Kopf"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"blass und kaltschweißig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"niedrig","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"erhöht","S":"Kopfschmerzen","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"Nackensteifigkeit"},
+        "Maßnahmen":"Pat. in Schatten, beengende Kleidung öffnen, mit feuchten Tüchern abkühlen"
+    },
+    "Diabetes mellitus":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Schlechter AZ"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"erhöht","Atemtiefe":"vertiefte Atmung","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"erhöht"},
+        "E":{"Temperatur":"normal","S":"Schwindel, Bewusstseinseintrübung","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"Atem riecht nach Aceton"},
+        "Maßnahmen":"keine"
+    },
+    "Hypoglykämie":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Schlechter AZ, Pat. schlecht gelaunt oder aggressiv"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"niedrig"},
+        "E":{"Temperatur":"normal","S":"Schwindel, Bewusstseinseintrübung","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Wenn Pat. bei Bewusstsein, zuckerhaltigs Lebensmittel konsumieren"
+    },
+
+
+
+    "Schädel-Hirn-Trauma (SHT)":{
+        "EE":{"Starke Blutung":"-","Eindruck":"normal"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"langsam und kräftig","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"Pupillendifferenz","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Schwindel, Bewusstseinseintrübung, Gefühlsstörungen","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"Monokel-/Brillenhämatome, Austritt von Hirnsubstanz bzw. Liquor"},
+        "Maßnahmen":"In Vakuummatratze. Oberkörper ca. 30° erhöht, keine HWS-Schiene"
+    },
+    "Wirbelsäulentrauma":{
+        "EE":{"Starke Blutung":"-","Eindruck":"normal"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"beidseitige Gefühlsstörungen bis Lähmung an den Extremitäten","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"Tastbare fehlstellung, bzw. Schmerzen bei der Wirbelsäule"},
+        "Maßnahmen":"In Vakuummatratze, MILS bzw. HWS-Schiene"
+    },
+    "Rückenschmerzen":{
+        "EE":{"Starke Blutung":"-","Eindruck":"normal"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"Gefühlsstörungen bis Lähmung an den Extremitäten","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"Schmerzen bei Wirbelsäule, ausstrahlend in Extremitäten"},
+        "Maßnahmen":"keine"
+    },
+    "Bauchtrauma":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Pat. mit angezogenen Beinen"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"blass und kaltschweißig","Rekapzeit":"normal","Blutungsräume":"brettharter Bauch","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Übelkeit, Erbrechen, Prellmarken/Hämatome im Bauchbereich","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"schnell ins KH, vorsichtige (Flach-)Lagerung nach Wunsch des Pat., Fremdkörper belassen"
+    },
+    "Akutes Abdomen":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Pat. mit angezogenen Beinen"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"blass und kaltschweißig","Rekapzeit":"normal","Blutungsräume":"brettharter Bauch","Blutdruck":"niedrig","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Übelkeit, Erbrechen","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Lagerung mit angezogenen Beinen oder nach Wunsch, Ess- Trink- Rauchverbot für Pat."
+    },
+    "Urologische Erkrankungen und Verletzungen":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Pat. starke Unterbauchschmerzen"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Unterbauchschmerzen, Blut im Harn, Anurie und Oligurie","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Lagerung nach Wunsch, Lagerung nach Fritsch bei Blutung bei weiblichen Pat., bei Entfernen des Harnkatheters: Harnfluss eindämmen, bei Shunt-Blutung: Druckverband mit dickem Saugpolster"
+    },
+    "Gynäkologische Erkrankungen und Verletzungen":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Pat. starke Unterbauchschmerzen"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Unterbauchschmerzen, Blutung im Urogenitaltrakt, Verletzungen bei Genitalien, evtl. pfählende Gegenstände","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Sensibel sein, Pfählende gegenstände nicht entfernen, Fixierung vorang gegenüber Lagerung, bei Blutung: Lagerung nach Fritsch, Wundversorgung"
+    },
+    "Extrauteringravidität":{
+        "EE":{"Starke Blutung":"-","Eindruck":"starke Schmerzen im Abdomen, Beine angezogen"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"blass und kaltschweißig","Rekapzeit":"normal","Blutungsräume":"brettharter Bauch","Blutdruck":"niedrig","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Übelkeit, Erbrechen","A":"","M":"","P":"Schwangerschaft möglich","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Wenn möglich Lagerung nach Fritsch, ansonsten angenehme Lagerung"
+    },
+    "Fehlgeburt(Abortus)":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Unterbauchschmerzen"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"blass und kaltschweißig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"niedrig","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"wehenartige Schmerzen","A":"","M":"","P":"Schwangerschaft möglich","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Lagerung nach Fritsch mit hochgelagerten Beinen, abgegangene Gewebeteile mit ins KH"
+    },
+    "Vena-Cava-Kompressionssyndrom":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Schwangere Patientin"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"erhöht","Pulsrhythmus":"rhythmisch","Hautzustand":"blass und kaltschweißig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"niedrig","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Linksseitenlage, Kontrolle im KH"
+    },
+    "Schwangerschaftsinduzierte Hypertonie und Eklamosie":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Schwangere Patientin"},
+        "A":{"Atemwege":"blutiger Schaum vor dem Mund"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"erhöht","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"Im Mutter-Kind-Pass eine Präeklampsie","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Während Krampfanfall vor Verletzungen schützen, danach Atemkontrolle und evtl. Sauerstoffgabe + Wärmeerhalt"
+    },
+    "Vorzeitige Wehen/Frühgeburt":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Schwangere Patientin mit Wehen"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"noch vor 37. SSW","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Ablauf wie normale Geburt, lebensrettende Maßnahmen für Neugeborenes, Notarzt, Wärmeerhalt für Neugeborenes"
+    },
+    "Vorzeitiger Blasensprung":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Schwangere Patientin mit Austritt von Fruchtwasser"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Fruchtwasserabgang ohne Wehen","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"vor 37.SSW liegend transportierend ansonsten auch sitzend möglich"
+    },
+    "Vaginale Blutungen in der Schwangerschaft":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Schwangere Patientin"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"normal"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"niedrig","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"Vaginale Blutungen in der Spätschwangerschaft","A":"","M":"","P":"","L":"","E":"","R":"Im Mutter-Kind-Pass eine Plazenta praevia dokumentiert","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Lagerung nach Fritsch"
+    },
+    "Epiglottitis und Pseudokrupp":{
+        "EE":{"Starke Blutung":"-","Eindruck":"Kleinkind mit Husten"},
+        "A":{"Atemwege":"frei"},
+        "B":{"Atmung":"Atemnot","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"ziehendes Einatemgeräusch","Atemhilfsmuskulatur":"-","Zyanose":"+","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"normal","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Kind bei Bezugsperson lassen, Umgebungsluft anfeuchten (Dusche aufdrehen, Fenster öffnen, Vor Kühlschrank stellen)"
+    },
+    "Krampfanfälle(Kind)":{
+        "EE":{"Starke Blutung":"-","Eindruck":"berufung zu 'krampfenden' Kleinkind"},
+        "A":{"Atemwege":"blutiger Schaum vor dem Mund"},
+        "B":{"Atmung":"vorhanden","Atemfrequenz":"normal","Atemtiefe":"normal","Bewegung des Brustkorbes":"beidseitig","Atemgeräusche":"-","Atemhilfsmuskulatur":"-","Zyanose":"-","SpO2":"niedrig"},
+        "C":{"Puls tastbar":"+","Pulsfrequenz":"normal","Pulsrhythmus":"rhythmisch","Hautzustand":"warm,rosig","Rekapzeit":"normal","Blutungsräume":"nicht auffällig","Blutdruck":"normal","EKG":"normal"},
+        "D":{"AVPU":"A","ZOPS":"unauffällig","FAST":"unauffällig","MDS":"unauffällig","Pupillen":"normal","Blutzucker":"normal"},
+        "E":{"Temperatur":"erhöht","S":"","A":"","M":"","P":"","L":"","E":"","R":"","Ganzkörperuntersuchung":"unauffällig"},
+        "Maßnahmen":"Während Krampfanfall vor Verletzungen schützen, danach Atemkontrolle und evtl. Sauerstoffgabe + Wärmeerhalt"
+    }
+}
