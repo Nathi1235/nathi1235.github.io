@@ -76,7 +76,7 @@
             let container = document.getElementById("result_container");
             for(let i = 0; i < name_array.length; i++){
                 let name_label = document.createElement("a");
-                name_label.innerHTML = name_array[i] + " : " + ran_array[i] + "=" +  createNewURL(ran_array[i]);
+                name_label.innerHTML = name_array[i] + ":" + ran_array[i] + " = " +  createNewURL(ran_array[i]);
                 let br = document.createElement("br");
                 container.appendChild(name_label);
                 container.appendChild(br);
