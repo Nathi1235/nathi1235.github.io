@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Industry Time Converter</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body onload="getYear()">
+    <textarea id="input" placeholder="Enter time in industry format (e.g. 8.15+0.98)"></textarea>
+    <br>
+    <button id="convertButton" onclick="conv()">Convert</button>
+    <br>
+    <br>
+    <span id="result"></span>
+    <footer><a style="color:black;text-decoration:none" href="https://github.com/Nathi1235">Nathanael</a>©<a id="year"></a></footer>
+    </body>
+    <script>
+        function getYear(){
+            document.getElementById('year').innerText = new Date().getFullYear();
+        }
+    </script>
+</html>
