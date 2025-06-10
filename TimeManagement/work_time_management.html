@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Industry Time Converter</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body onload="getYear(); calculate()">
+        <label>Weekly Work-Hours</label>
+        <input onchange="calculate()" type="number" id="weeklyHours" value="39" min="0" step="0.5">
+        <br>
+        <span id="Pause">
+            <label>Pause</label>
+            <br>
+            <span id="pauseList">
+                <span id="pause1">
+                    <label>1:</label>
+                    <input onchange="calculate()" type="time" id="start_pause1" value="10:00">
+                    <i> to </i>
+                    <input onchange="calculate()" type="time" id="end_pause1" value="10:12">
+                    <br>
+                </span>
+                <span id="pause2">
+                    <label>2:</label>
+                    <input onchange="calculate()" type="time" id="start_pause2" value="12:00">
+                    <i> to </i>
+                    <input onchange="calculate()" type="time" id="end_pause2" value="12:30">
+                    <br>
+                </span>
+            </span>
+            <button id="addPause" onclick="addPause()">Add Pause</button>
+            <button id="removePause" onclick="removePause(); calculate()">Remove Pause</button>
+        </span>
+        <table>
+            <tr>
+                <td>
+                    <div id="monday">
+                        <label>Monday</label>
+                        <input onchange="calculate()" type="checkbox" id="mondayCheckbox" checked>
+                    </div>
+                </td>
+                <td>
+                    <div id="tuesday">
+                        <label>Tuesday</label>
+                        <input onchange="calculate()" type="checkbox" id="tuesdayCheckbox" checked>
+                    </div>
+                </td>
+                <td>
+                    <div id="wednesday">
+                        <label>Wednesday</label>
+                        <input onchange="calculate()" type="checkbox" id="wednesdayCheckbox" checked>
+                    </div>
+                </td>
+                <td>
+                    <div id="thursday">
+                        <label>Thursday</label>
+                        <input onchange="calculate()" type="checkbox" id="thursdayCheckbox" checked>
+                    </div>
+                </td>
+                <td>
+                    <div id="friday">
+                        <label>Friday</label>
+                        <input onchange="calculate()" type="checkbox" id="fridayCheckbox" checked>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="mondayStartTime">
+                        <label>Start Time</label>
+                        <input onchange="calculate()" type="time" id="startTimeMonday" value="07:00">
+                    </div>
+                </td>
+                <td>
+                    <div id="tuesdayStartTime">
+                        <label>Start Time</label>
+                        <input onchange="calculate()" type="time" id="startTimeTuesday" value="07:00">
+                    </div>
+                </td>
+                <td>
+                    <div id="wednesdayStartTime">
+                        <label>Start Time</label>
+                        <input onchange="calculate()" type="time" id="startTimeWednesday" value="07:00">
+                    </div>
+                </td>
+                <td>
+                    <div id="thursdayStartTime">
+                        <label>Start Time</label>
+                        <input onchange="calculate()" type="time" id="startTimeThursday" value="07:00">
+                    </div>
+                </td>
+                <td>
+                    <div id="fridayStartTime">
+                        <label>Start Time</label>
+                        <input onchange="calculate()" type="time" id="startTimeFriday" value="07:00">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="mondayEndTime">
+                        <label>Desired time to leave</label>
+                        <input onchange="calculate()" type="checkbox" id="endTimeMondayCheckbox">
+                        <div id="endTimeMondayDiv">
+                            <input onchange="calculate()" type="time" id="endTimeMonday" value="16:00">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="tuesdayEndTime">
+                        <label>Desired time to leave</label>
+                        <input onchange="calculate()" type="checkbox" id="endTimeTuesdayCheckbox">
+                        <div id="endTimeTuesdayDiv">
+                            <input onchange="calculate()" type="time" id="endTimeTuesday" value="16:00">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="wednesdayEndTime">
+                        <label>Desired time to leave</label>
+                        <input onchange="calculate()" type="checkbox" id="endTimeWednesdayCheckbox">
+                        <div id="endTimeWednesdayDiv">
+                            <input onchange="calculate()" type="time" id="endTimeWednesday" value="16:00">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="thursdayEndTime">
+                        <label>Desired time to leave</label>
+                        <input onchange="calculate()" type="checkbox" id="endTimeThursdayCheckbox">
+                        <div id="endTimeThursdayDiv">
+                            <input onchange="calculate()" type="time" id="endTimeThursday" value="16:00">
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div id="fridayEndTime">
+                        <label>Desired time to leave</label>
+                        <input onchange="calculate()" type="checkbox" id="endTimeFridayCheckbox" checked>
+                        <div id="endTimeFridayDiv">
+                            <input onchange="calculate()" type="time" id="endTimeFriday" value="15:00">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <span id="TimeTable"></span>
+        <button onclick="showGraph()">Show Graph</button>
+        <footer><a style="color:black;text-decoration:none" href="https://github.com/Nathi1235">Nathanael</a>©<a id="year"></a></footer>
+    </body>
+    <script>
+        function getYear(){
+            document.getElementById('year').innerText = new Date().getFullYear();
+        }
+    </script>
+</html>

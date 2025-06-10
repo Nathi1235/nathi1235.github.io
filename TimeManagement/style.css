@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    font-family: Arial;
+    color: black;
+}
+
+
+table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 2px black;
+}
+
+input{
+    font-size: 3vh;
+    font-family: Arial;
+
+    width: auto;
+    height: auto;
+
+    margin-bottom: 10px;
+
+    border-radius: 1vw;
+    border: solid 2px black;
+
+    text-align: center;
+}
+
+button{
+    font-size: 3vh;
+    font-family: Arial;
+
+    width: auto;
+    height: auto;
+
+    border-radius: 1vw;
+    border: solid 1px black;
+}
+
+footer{
+    font-size: 20px;
+    margin-top: auto;
+    padding-top: 2vh;
+}
