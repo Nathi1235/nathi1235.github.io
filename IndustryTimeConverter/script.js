@@ -24,7 +24,7 @@ function conv(){
     try{
         let result = eval(input);
         console.log("Result: " + result);
-        let output = "Industry Time: " + result + "h<br>Standard Time: " + parseInt(result) + "h" + parseInt(result%1 * 60);
+        let output = "Industry Time: " + result + "h<br>Standard Time: " + parseInt(result) + "h" + Math.round(result%1 * 60);
         document.getElementById("result").innerHTML = output;
     } catch (e) {
         console.error("Error in evaluation: " + e);
