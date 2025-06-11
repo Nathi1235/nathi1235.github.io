@@ -119,7 +119,6 @@ function calculate() {
             pause_array.push({ start: sti(startPause), end: sti(endPause), length: pause_length });
         }
     }
-
     var totalPause = pause_array.reduce((acc, pause) => acc + pause.length, 0);
 
     let startTimeMonday = sti(document.getElementById("startTimeMonday").value);
@@ -161,9 +160,15 @@ function calculate() {
     if(!wednesdayWorkTime) openDays++;
     if(!thursdayWorkTime) openDays++;
     if(!fridayWorkTime) openDays++;
+
+    if(!workOnMonday) openDays--;
+    if(!workOnTuesday) openDays--;
+    if(!workOnWednesday) openDays--;
+    if(!workOnThursday) openDays--;
+    if(!workOnFriday) openDays--;
     
     weeklyHours = weeklyHours - (mondayWorkTime + tuesdayWorkTime + wednesdayWorkTime + thursdayWorkTime + fridayWorkTime);
-    let averageWorkTimePerDay = weeklyHours / openDays;
+    let averageWorkTimePerDay = Math.round(weeklyHours / openDays * 100) / 100;
     console.log("Average Work Time Per Day: " + its(averageWorkTimePerDay).replace(":", "h ") + "m");
     let averageSpentTime = averageWorkTimePerDay + totalPause;
     console.log("Average Time Spent At Work Per Day: " + its(averageSpentTime).replace(":", "h ") + "m");
@@ -183,15 +188,22 @@ function calculate() {
         var suggestedEndTimeFriday = startTimeFriday + averageSpentTime;
     }
 
-    document.getElementById("TimeTable").innerHTML = `
-    Monday: ${its(suggestedEndTimeMonday)}<br>
-    Tuesday: ${its(suggestedEndTimeTuesday)}<br> 
-    Wednesday: ${its(suggestedEndTimeWednesday)}<br>
-    Thursday: ${its(suggestedEndTimeThursday)}<br>
-    Friday: ${its(suggestedEndTimeFriday)}<br>
-    `
-}
+    let outputString = ``;
 
-function showGraph() {
-    calculate();
+    if(workOnMonday) {
+        outputString += `Monday: ${its(suggestedEndTimeMonday)}<br>`;
+    }
+    if(workOnTuesday) {
+        outputString += `Tuesday: ${its(suggestedEndTimeTuesday)}<br>`;
+    }
+    if(workOnWednesday) {
+        outputString += `Wednesday: ${its(suggestedEndTimeWednesday)}<br>`;
+    }
+    if(workOnThursday) {
+        outputString += `Thursday: ${its(suggestedEndTimeThursday)}<br>`;
+    }
+    if(workOnFriday) {
+        outputString += `Friday: ${its(suggestedEndTimeFriday)}<br>`;
+    }
+    document.getElementById("TimeTable").innerHTML = outputString;
 }

@@ -3,6 +3,7 @@
     <head>
         <title>Industry Time Converter</title>
         <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
     </head>
@@ -147,7 +148,7 @@
         </table>
         <br>
         <span id="TimeTable"></span>
-        <button onclick="showGraph()">Show Graph</button>
+        <canvas id="resultChart"></canvas>
         <footer><a style="color:black;text-decoration:none" href="https://github.com/Nathi1235">Nathanael</a>©<a id="year"></a></footer>
     </body>
     <script>

@@ -1,7 +1,7 @@
 function conv(){
     var input = document.getElementById("input").value;
     console.log("Input: " + input);
-    input = input.replace(/[^0-9|+*/().,h-]+/g, ''); // remove all whitespace
+    input = input.replace(/[^0-9|+*/.,h-]+/g, ''); // remove all whitespace
     console.log("Filter Input: " + input);
     let a = input.split(/[+*/-]+/);
     console.log("Filter Numbers: " + a.join("; "));
@@ -24,7 +24,7 @@ function conv(){
     try{
         let result = eval(input);
         console.log("Result: " + result);
-        let output = "Industry Time: " + result + "h<br>Standard Time: " + parseInt(result) + "h" + Math.round(result%1) * 60;
+        let output = "Industry Time: " + result + "h<br>Standard Time: " + parseInt(result) + "h" + Math.round(result%1 * 60);
         document.getElementById("result").innerHTML = output;
     } catch (e) {
         console.error("Error in evaluation: " + e);
