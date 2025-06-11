@@ -1,7 +1,7 @@
 function conv(){
     var input = document.getElementById("input").value;
     console.log("Input: " + input);
-    input = input.replace(/[^0-9|+*/.,h-]+/g, ''); // remove all whitespace
+    input = input.replace(/[^0-9|+*/().,h-]+/g, ''); // remove all whitespace
     console.log("Filter Input: " + input);
     let a = input.split(/[+*/-]+/);
     console.log("Filter Numbers: " + a.join("; "));
